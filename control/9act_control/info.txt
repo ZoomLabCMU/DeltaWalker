@@ -1,0 +1,2 @@
+9 actuator control code for computer to walker via wifi
+based on https://github.com/iamlab-cmu/DeltaHands

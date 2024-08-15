@@ -1,0 +1,6 @@
+12 actuator control code for computer to walker via cable
+keyboard_operation - teleoperation
+manual_traj_operation - commanding manually designed trajectories
+ocrl_traj_operation - commanding trajectory-optimized trajectories
+control_helpers - assorted helper functions for commanding trajectories
+DeltaWalker - serial communication between computer and robot

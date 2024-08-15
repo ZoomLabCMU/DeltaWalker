@@ -1,0 +1,29 @@
+<robot name="fingertip.urdf">
+  <link name="baseLink">
+    <contact>
+      <lateral_friction value="0.2"/>
+      <rolling_friction value="1e-6"/>
+      <spinning_friction value="1e-6"/>
+      <contact_cfm value="0.0"/>
+      <contact_erp value="1.0"/>
+    </contact>
+    <inertial>
+       <origin rpy="0 0 0" xyz="0 0.0 0.0"/>
+       <mass value="0.025"/>
+       <inertia ixx="1e-7" ixy="0" ixz="0" iyy="1e-7" iyz="0" izz="1e-7"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="delta-feet-shoe-25mm-urdf.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <material name="white">
+        <color rgba="1 1 1 1"/>
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+    	 	<mesh filename="delta-feet-shoe-25mm-urdf.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+  </link>
+</robot>

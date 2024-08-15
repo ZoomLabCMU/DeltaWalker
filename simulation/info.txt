@@ -1,0 +1,11 @@
+Simulation environment built in pybullet
+
+manual_sim - manually designed trajectories simulation
+ocrl_sim - trajectory optimized trajectories simulation
+
+manual_sim_plots - plotting for manually designed trajectories simulation results - goes into results
+ocrl_sim_plots - plotting for trajectory optimized trajectories simulation results - goes into results_julia
+
+recorder - recording helper for the simulation
+
+workspace - plotting the workspace of the delta

@@ -1,0 +1,23 @@
+Trajectory optimized trajectories generated from ocrl folder
+
+add_reset - adds additional point to the rotation trajectories to reset the robot (untwist it)
+convert_rot - manual attempt at converting c-gait (adjs) to rotation
+rotate_traj - convert trajectories from orientation 1 to the other orientations
+
+trajectories
+    walk = walk
+    ambl = amble
+    mtri = s-gait
+    adjs = c-gait
+
+orientations - movement direction
+    FB gaits - walk and amble
+        1 - quadrant 1 diagonal
+        2 - quadrant 2 diagonal
+        3 - quadrant 3 diagonal
+        4 - quadrant 4 diagonal
+    FBS gaits - s-gait and c-gait
+        1 - +x
+        2 - +y
+        3 - -x
+        4 - -y

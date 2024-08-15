@@ -1,0 +1,29 @@
+Folders
+    0_manual_design - manually designed trajectories results
+    1_ocrl_trials - trajectory optimized trajectories results
+    2_ocrl_variations - trajectory optimized trajectories with variance in foot ordering but same general pattern results
+    3_ocrl_further_studies - further studies with trajectory optimized trajectories
+
+Code
+    1_video_adjust - convert raw video to mp4, undistort and crop the frames - saved in adjusted video folder
+                        after video is saved as adjusted it is manually trimmed to remove excess time
+                        when the robot is not doing anything and saved in trimmed video folder
+    2_video_processing - foot detection on the trimmed video and annotated version of the video saved to annotated video folder
+    3_video_speedup - speed up the videos - use videos from adjusted and saved to speedy folder
+    4_data_processing - convert pixels to cm
+    5_data_analysis - analyze the movement by comparing start to finish points with respect to the desired point
+    6_step_process - user based interface to analyze the amount of time it takes for the robot to reach each step point to analyze single steps
+    7_plotting_0/1/2/3 - plotting for the various folders of testing
+    add_frame1 - speed up videos and annotate with estimation of the trajectories each foot follows
+    livecam - livecam for viewing the testing setup with color detection
+    processing_helpers - helper functions for data processing
+
+Video folders
+    You will need to make a folder in each of the main folders named "videos"
+    That folder should have the following folders
+        raw
+        adjusted
+        trimmed
+        annotated
+        speedy
+        speedy_ann

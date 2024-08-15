@@ -1,0 +1,12 @@
+Trajectory Optimization for Trajectory Generation
+
+This uses Julia v1.6.7 and IJulia
+Julia   https://julialang.org/downloads/#long_term_support_release
+IJulia  https://github.com/JuliaLang/IJulia.jl
+Run them in jupyter notebook or jupyter lab
+
+Startup instructions
+    Open terminal
+    Enter "julia" to start Jullia REPL
+    Enter "using IJulia" to use IJulia
+    Launch notebook using notebook() or jupyterlab()

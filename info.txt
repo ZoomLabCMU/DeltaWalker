@@ -1,0 +1,8 @@
+Assorted files used by multiple folders
+
+helpers - various helper functions
+kinematics_delta - single delta kinematics
+kineamtics_walker - walker kinematics
+ocrl_paths - trajectory conversion class for trajectory optimized trajectories
+path_gen - path generation class for manually designed trajectories
+trajectories - manually designed trajectories
