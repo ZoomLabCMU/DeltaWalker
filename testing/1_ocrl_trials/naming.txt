@@ -1,0 +1,19 @@
+traj[GAIT][VERSION]_t[TRIAL NUMBER]_o[ORIENTATION NUMBER]_[NUM ITERS]x
+
+GAIT
+    A - Walk
+    B - Amble
+    C - S-Gait
+    D - C-Gait
+
+VERSION
+    a - Step size 1.0 cm
+    b - Step size 1.5 cm
+    c - Step size 2.0 cm
+    d - Step size 2.5 cm
+
+ORIENTATION NUMBER
+    1 - Quadrant 1 / +X axis
+    2 - Quadrant 2 / +Y axis
+    3 - Quadrant 3 / -X axis
+    4 - Quadrant 4 / -Y axis

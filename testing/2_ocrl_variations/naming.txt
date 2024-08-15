@@ -1,0 +1,38 @@
+traj[GAIT][ORDER][VERSION]_t[TRIAL NUMBER]_o[ORIENTATION NUMBER]_[NUM ITERS]x
+
+GAIT
+    A - Walk
+    B - Amble
+    C - S-Gait
+    D - C-Gait
+
+ORDER (F - Front, B - Back, L - Left, R - Right)
+    Walk
+        1 - BL FL BR FR
+        2 - BR FR BL FL
+        3 - FL BL FR BR
+        4 - FR BR FL BL
+    Amble
+        1 - BL FR BR FL
+        2 - BR FL BL FR
+        3 - FL BR FR BL
+        4 - FR BL FL BR
+    S-Gait
+        1 - F L R B
+        2 - F R L B
+        3 - B L R F
+        4 - B R L R
+    C-Gait
+        1 - F L B R
+        2 - F R B L
+        3 - B L F R
+        4 - B R F L
+
+VERSION
+    a - Step size 1.0 cm
+
+ORIENTATION NUMBER
+    1 - Quadrant 1 / +X axis
+    2 - Quadrant 2 / +Y axis
+    3 - Quadrant 3 / -X axis
+    4 - Quadrant 4 / -Y axis
